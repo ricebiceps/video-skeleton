@@ -1,2 +1,2 @@
-# video_skeleton
+# video-skeleton
 This is a video processing service primarily written in typescript, containerized in docker and currently in the process of being deployed through google cloud. Next steps will be utilizing next.js to create a web app frontend.

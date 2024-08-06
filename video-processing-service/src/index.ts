@@ -8,10 +8,12 @@ import {
   deleteProcessedVideo
 } from './storage';
 
+setUpDirectories();
+
 const app =  express();
 app.use(express.json());
 
-app.post("/process_video", async (req,res)=>{
+app.post("/process-video", async (req,res)=>{
     // Get the bucket and filename from the Cloud Pub/Sub message
     let data;
     try{
